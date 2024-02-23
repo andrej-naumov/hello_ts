@@ -1,4 +1,5 @@
 import React from "react";
+import { v4 } from 'uuid';
 import "./styles.css";
 
 const firstName = "John",
@@ -33,7 +34,7 @@ function Homework20() {
         </p>
         <ul>
           {programLangs.map((lang) => (
-            <li key={lang}>{lang}</li>
+            <li key={v4()}>{lang}</li>
           ))}
         </ul>
       </div>
