@@ -1,0 +1,19 @@
+.username {
+    padding: 20px 0px;
+}
+
+input[type="email"]{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 20px;
+  width: 85%;
+  height: 30px;
+  position: relative;
+  padding-left: 28px;
+  outline: none;
+}
+
+input::placeholder {
+    color: beige;
+}

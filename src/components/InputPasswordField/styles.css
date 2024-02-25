@@ -1,0 +1,14 @@
+input[type=password], input[type=text]:focus {
+    outline: none;
+}
+
+input[type=password], input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 20px;
+    height: 30px;
+    padding-left: 28px;
+    position: relative;
+    width: 85%;
+}
