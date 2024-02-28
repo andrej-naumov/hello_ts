@@ -1,6 +1,6 @@
 import "./styles.css";
 
-function InputLoginField(sets) {
+function InputLoginField({inputType, placeholder, value, onChange}) {
   return (
     <div className="username">
       <div className="icon">
@@ -21,9 +21,11 @@ function InputLoginField(sets) {
         </svg>
       </div>
       <input
-        type={sets.inputType}
-        placeholder={sets.placeholder}
+        type={inputType}
+        placeholder={placeholder}
         autoComplete="off"
+        value={value}
+        onChange={onChange}
       />
     </div>
   );
