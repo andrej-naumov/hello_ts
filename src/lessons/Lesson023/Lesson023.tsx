@@ -13,7 +13,7 @@ function Lesson023() {
 
     return <div>
         <InputLoginField inputType="text" placeholder="placeholder"  value={inputValue} onChange={onChangeInput}/>
-        <SubmitButton value={'submit'}></SubmitButton>
+        <SubmitButton value={'submit'} onClick={()=>{}}></SubmitButton>
     </div>;
 }
 
