@@ -1,22 +1,10 @@
-import Lesson25 from 'lessons/Lesson25/Lesson25';
-import GlobalStyles from './styles/GlobalStyle';
-import Homework024 from 'homeworks/Homework024/Homework024';
-
-// import Homework20 from './homeworks/Homework20/Homework20';
-// import Homework21 from './homeworks/Homework21/Homework21';
-// import Lesson022 from './lessons/Lesson022/Lesson022';
-// import Lesson023 from './lessons/Lesson023/Lesson023';
-// import Lesson21 from './lessons/Lesson21/Lesson021';
-
-
-
+import Homework27 from "homeworks/Homework027/Homework27";
 
 function App() {
   return (
     <>
-      <GlobalStyles/>
-      <Lesson25 />
-      </>
+      <Homework27 />
+    </>
   );
 }
 
